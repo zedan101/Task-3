@@ -47,13 +47,17 @@ header a img{
     font-size: 50%;
 }
 .nav-txt input{
-    padding-right: 20%;
+    padding-right: 50px;
     border-radius: 1px;
-   
+    border: 1px solid rgba(100, 100, 100, 0.5);
+    border-top: 2px solid rgba(100, 100, 100, 0.9);
+    border-left: 2px solid rgba(100, 100, 100, 0.9);
+    border-radius: 2px;
 }
+
 .nav-go input{
     border-radius: 5px;
-    padding: 0% 40%;
+    padding: 0% 10px;
     border: 1px solid #494949;
     
 }
@@ -68,11 +72,12 @@ header a img{
 }
 .nav-item:nth-child(8){
     border: none;
-    padding-left: 7%;
+    padding-left: 4%;
+    
 }
 .nav-item:nth-child(9){
     border: none;
-    padding-left: 5%;
+    padding-left: 1%;
 }
 .sub-nav{
     margin-top: 1%;
@@ -219,6 +224,7 @@ padding-right: 15%;
     text-decoration: none;
     color: #6D7386;
 }
+
 footer li{
     list-style-type: none;
     margin-right: 1.5%;
@@ -227,6 +233,10 @@ footer li{
 footer li:nth-child(1){
     margin-left: 0%;
 }
+.f-one{
+    padding: 0%;
+}
+
 .f-one ul{
     padding: 0%;
     margin: 0%;
@@ -242,14 +252,18 @@ footer p{
     font-size: 60%;
 }
 .f-two{
-    padding-left: 17%;
+    padding: 0%;
 }
-.f-two input{
+.f-two input:nth-child(2){
+    margin-left: 38%;
     font-size: 56%;
     border: none;
+    padding-right: 10%;
 }
 .f-two input:nth-child(3){
     border-radius: 3px;
+    font-size: 56%;
+    border: none;
 }
 .f-two p{
     margin: 0%;

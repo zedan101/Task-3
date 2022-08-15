@@ -46,16 +46,15 @@ header a img{
     padding: 1%;
     font-size: 50%;
 }
-.nav-txt input{
+.nav-txt {
     padding-right: 50px;
     border-radius: 1px;
     border:none;
-  
     box-shadow:1px 1px 1px 1px #5c5b5b inset;
     
 }
 
-.nav-go input{
+.nav-go {
     border-radius: 5px;
     padding: 0% 10px;
     border: 1px solid #494949;
@@ -71,15 +70,15 @@ header a img{
 .nav-item{
     border-right: 1px solid rgba(254,255,254,0.3);
 }
-.nav-item:nth-child(8){
+/* .nav-item:nth-child(8){
     border: none;
-    padding-left: 4%;
+  
     
 }
 .nav-item:nth-child(9){
     border: none;
     padding-left: 1%;
-}
+} */
 .sub-nav{
     margin-top: 1%;
 }
@@ -270,13 +269,7 @@ header a{
 .navbar li a{
     font-size: 85%;
 }
-.nav-item:nth-child(8){
-    padding-left: 15%;
-}
-.nav-item:nth-child(9){
-    border: none;
-    padding-left: 1%;
-}
+
 .sub-nav a{
     font-size: 90%;
     padding: 0% 3%;
@@ -315,12 +308,6 @@ footer p{
     margin-top:2%;
 }
 }
-@media screen and (max-width:1330px){
-    .nav-item:nth-child(8){
-        padding-left: 10%;
-    } 
-}
-
 
 @media screen and (max-width:768px){
     .separatorf{

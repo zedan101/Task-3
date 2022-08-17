@@ -47,7 +47,7 @@ header a img{
     font-size: 50%;
 }
 .nav-txt {
-    padding-right: 50px;
+    width: 180px;
     border-radius: 1px;
     border:none;
     box-shadow:1px 1px 1px 1px #5c5b5b inset;
@@ -80,7 +80,7 @@ header a img{
     padding-left: 1%;
 } */
 .sub-nav{
-    margin-top: 1%;
+    margin-top: 0.1%
 }
 .sub-nav a{
     color: #6D7386;
@@ -128,6 +128,7 @@ padding-right: 15%;
 .main-one-text a{
     color:#ABABAB ;
     font-size: 60%;
+    padding-left: 2%;
 }
 .main-one{
     border:6px solid rgb(255, 255, 255) ;
@@ -240,7 +241,7 @@ footer p{
     padding: 0%;
 }
 .f-two input:nth-child(2){
-    
+    width: 180px;
     font-size: 56%;
     border: none;
    
@@ -269,7 +270,9 @@ header a{
 .navbar li a{
     font-size: 85%;
 }
-
+.nav-txt{
+    margin-left: 5%;
+}
 .sub-nav a{
     font-size: 90%;
     padding: 0% 3%;

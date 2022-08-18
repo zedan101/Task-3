@@ -337,3 +337,12 @@ footer p{
         display: inline-block !important;
     }
 }
+@media screen and (max-width:568px){
+.f-two p{
+    display: inline-block !important;
+
+}
+footer{
+    padding-left: 13.5%;
+}
+}
